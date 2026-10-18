@@ -1,0 +1,32 @@
+
+:root {
+    --bg: #99d9fc;
+    --panel: #121a2e;
+    --text: #eef2ff;
+    --muted: #aab5ce;
+    --accent: #8b9cff;
+    --accent2: #66e0c2;
+    --line: #293550;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(
+        ellipse at 80% 0%,
+        #1b2850 0,
+        transparent 40%
+    ), var(--bg);
+    color: var(--text);
+    font: 16px/1.65 Inter, Segoe UI, Arial, sans-serif;
+}
+
+/* Paste the rest of your existing CSS here,
+   including .avatar, .hero, .nav, @media, etc. */
